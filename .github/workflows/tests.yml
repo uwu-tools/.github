@@ -1,0 +1,58 @@
+name: GitHub sync tests
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions: read-all
+
+jobs:
+  test-dump:
+    name: dump-config
+    runs-on: ubuntu-latest
+    steps:
+      - name: Harden Runner
+        uses: step-security/harden-runner@1f99358870fe1c846a3ccba386cc2b2246836776 # v2.2.1
+        with:
+          egress-policy: audit # TODO: change to 'egress-policy: block' after couple of runs
+
+      - name: Checkout repository
+        uses: actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c # v3.3.0
+
+      - name: Set GitHub token
+        run: echo ${{ secrets.AUGGIE_BOT_TOKEN }} > token
+
+      - name: Dump org config
+        uses: docker://ghcr.io/uwu-tools/peribolos:v0.0.3@sha256:03b7dc21ec9a18ded7d73175b5920e815cb672fe03e56dbd8ef2a3dc2595ff91
+        with:
+          github-token-path: ./token
+          dump: relengfam
+
+  test-sync:
+    name: sync-orgs
+    runs-on: ubuntu-latest
+    steps:
+      - name: Harden Runner
+        uses: step-security/harden-runner@1f99358870fe1c846a3ccba386cc2b2246836776 # v2.2.1
+        with:
+          egress-policy: audit # TODO: change to 'egress-policy: block' after couple of runs
+
+      - name: Checkout repository
+        uses: actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c # v3.3.0
+
+      - name: Set GitHub token
+        run: echo ${{ secrets.AUGGIE_BOT_TOKEN }} > token
+
+      - name: Sync GitHub orgs
+        uses: docker://ghcr.io/uwu-tools/peribolos:v0.0.3@sha256:03b7dc21ec9a18ded7d73175b5920e815cb672fe03e56dbd8ef2a3dc2595ff91
+        with:
+          github-token-path: ./token
+          config-path: orgs
+          min-admins: 3
+          required-admins: "auggie-bot,cpanato,justaugustus"
+          fix-org: true
+          fix-org-members: true
+          fix-teams: true
+          fix-team-members: true
+          fix-team-repos: true
