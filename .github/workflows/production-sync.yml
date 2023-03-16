@@ -3,6 +3,9 @@ name: Production sync
 on:
   push:
     branches: [ main ]
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '0 * * * *'
   workflow_dispatch:
 
 permissions: read-all
@@ -28,8 +31,8 @@ jobs:
         with:
           github-token-path: ./token
           config-path: orgs
-          min-admins: 3
-          required-admins: "auggie-bot,cpanato,justaugustus"
+          min-admins: 4
+          required-admins: "auggie-bot,cpanato,detiber,justaugustus"
           fix-org: true
           fix-org-members: true
           fix-teams: true

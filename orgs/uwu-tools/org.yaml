@@ -15,3 +15,12 @@ location: ""
 members: []
 members_can_create_repositories: true
 name: ""
+teams:
+  org-admins:
+    description: ""
+    maintainers:
+    - justaugustus
+    - cpanato
+    - detiber
+    members: []
+    privacy: closed
