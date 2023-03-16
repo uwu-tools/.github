@@ -4,8 +4,8 @@ teams:
     maintainers:
     - justaugustus
     - cpanato
-    members:
     - detiber
+    members: []
     privacy: closed
     repos:
       peribolos: admin
@@ -14,8 +14,8 @@ teams:
     maintainers:
     - justaugustus
     - cpanato
-    members:
     - detiber
+    members: []
     privacy: closed
     repos:
       peribolos: maintain
