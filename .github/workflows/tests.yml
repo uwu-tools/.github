@@ -24,7 +24,7 @@ jobs:
         run: echo ${{ secrets.AUGGIE_BOT_TOKEN }} > token
 
       - name: Dump org config
-        uses: docker://ghcr.io/uwu-tools/peribolos@sha256:d6a2677e516c2958eb0269f30dabc104ea88de5a27d59cd6374919cfa807c14f # latest
+        uses: docker://ghcr.io/uwu-tools/peribolos:v0.0.3@sha256:03b7dc21ec9a18ded7d73175b5920e815cb672fe03e56dbd8ef2a3dc2595ff91
         with:
           github-token-path: ./token
           dump: relengfam
