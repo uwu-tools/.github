@@ -1,12 +1,14 @@
-name: GitHub sync test
+name: GitHub sync tests
 
 on:
+  push:
+    branches: [ main ]
   workflow_dispatch:
 
 permissions: read-all
 
 jobs:
-  gh-sync:
+  test-dump:
     name: dump-config
     runs-on: ubuntu-latest
     steps:
@@ -15,10 +17,13 @@ jobs:
         with:
           egress-policy: audit # TODO: change to 'egress-policy: block' after couple of runs
 
-      - uses: actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c # v3.3.0
-      - name: set token
+      - name: Checkout repository
+        uses: actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c # v3.3.0
+
+      - name: Set GitHub token
         run: echo ${{ secrets.AUGGIE_BOT_TOKEN }} > token
-      - name: GitHub sync
+
+      - name: Dump org config
         uses: docker://ghcr.io/uwu-tools/peribolos@sha256:d6a2677e516c2958eb0269f30dabc104ea88de5a27d59cd6374919cfa807c14f # latest
         with:
           github-token-path: ./token
