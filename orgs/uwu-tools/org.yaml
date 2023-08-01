@@ -12,7 +12,8 @@ email: ""
 has_organization_projects: true
 has_repository_projects: true
 location: ""
-members: []
+members:
+- lgecse
 members_can_create_repositories: false
 name: ""
 teams:
