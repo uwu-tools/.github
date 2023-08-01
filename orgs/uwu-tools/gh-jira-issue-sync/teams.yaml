@@ -17,3 +17,11 @@ teams:
     privacy: closed
     repos:
       gh-jira-issue-sync: maintain
+  gh-jira-issue-sync-triagers:
+    description: ""
+    maintainers: []
+    members:
+    - lgecse
+    privacy: closed
+    repos:
+      gh-jira-issue-sync: triage
