@@ -22,6 +22,7 @@ teams:
     maintainers: []
     members:
     - lgecse
+    - rappizs
     privacy: closed
     repos:
       gh-jira-issue-sync: triage
