@@ -23,6 +23,7 @@ teams:
     members:
     - lgecse
     - rappizs
+    - matewolf
     privacy: closed
     repos:
       gh-jira-issue-sync: triage
