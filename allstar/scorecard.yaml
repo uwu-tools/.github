@@ -1,0 +1,24 @@
+optConfig:
+  optOutStrategy: true
+action: issue
+checks:
+- "Binary-Artifacts"
+- "Branch-Protection"
+- "CI-Tests"
+- "CII-Best-Practices"
+- "Code-Review"
+- "Contributors"
+- "Dangerous-Workflow"
+- "Dependency-Update-Tool"
+- "Fuzzing"
+- "License"
+- "Maintained"
+- "Packaging"
+- "Pinned-Dependencies"
+- "SAST"
+- "SBOM"
+- "Security-Policy"
+- "Signed-Releases"
+- "Token-Permissions"
+- "Vulnerabilities"
+- "Webhooks"
