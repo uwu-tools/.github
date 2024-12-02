@@ -1,0 +1,19 @@
+teams:
+  magex-admins:
+    description: ""
+    maintainers:
+    - justaugustus
+    - cpanato
+    members: []
+    privacy: closed
+    repos:
+      magex: admin
+  magex-maintainers:
+    description: ""
+    maintainers:
+    - justaugustus
+    - cpanato
+    members: []
+    privacy: closed
+    repos:
+      magex: maintain
