@@ -32,7 +32,7 @@ jobs:
           github-token-path: ./token
           config-path: orgs
           min-admins: 4
-          required-admins: "auggie-bot,cpanato,detiber,justaugustus"
+          required-admins: "auggie-bot,cpanato,justaugustus"
           fix-org: true
           fix-org-members: true
           fix-teams: true

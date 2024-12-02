@@ -1,5 +1,5 @@
 teams:
-  peribolos-admins:
+  magex-admins:
     description: ""
     maintainers:
     - justaugustus
@@ -7,13 +7,14 @@ teams:
     members: []
     privacy: closed
     repos:
-      peribolos: admin
-  peribolos-maintainers:
+      magex: admin
+  magex-maintainers:
     description: ""
     maintainers:
     - justaugustus
     - cpanato
-    members: []
+    members:
+    - schristoff
     privacy: closed
     repos:
-      peribolos: maintain
+      magex: maintain

@@ -1,7 +1,6 @@
 admins:
 - auggie-bot
 - cpanato
-- detiber
 - justaugustus
 - sethmccombs
 billing_email: foo@auggie.dev
@@ -14,8 +13,9 @@ has_repository_projects: true
 location: ""
 members:
 - lgecse
-- rappizs
 - matewolf
+- rappizs
+- schristoff
 members_can_create_repositories: false
 name: ""
 teams:
@@ -24,6 +24,5 @@ teams:
     maintainers:
     - justaugustus
     - cpanato
-    - detiber
     members: []
     privacy: closed
