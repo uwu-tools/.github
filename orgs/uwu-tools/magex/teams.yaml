@@ -13,7 +13,8 @@ teams:
     maintainers:
     - justaugustus
     - cpanato
-    members: []
+    members:
+    - schristoff
     privacy: closed
     repos:
       magex: maintain
