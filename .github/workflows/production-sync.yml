@@ -31,7 +31,7 @@ jobs:
         with:
           github-token-path: ./token
           config-path: orgs
-          min-admins: 4
+          min-admins: 3
           required-admins: "auggie-bot,cpanato,justaugustus"
           fix-org: true
           fix-org-members: true
