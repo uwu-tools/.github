@@ -13,8 +13,9 @@ has_repository_projects: true
 location: ""
 members:
 - lgecse
-- rappizs
 - matewolf
+- rappizs
+- schristoff
 members_can_create_repositories: false
 name: ""
 teams:
