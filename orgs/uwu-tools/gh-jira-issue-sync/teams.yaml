@@ -2,7 +2,6 @@ teams:
   gh-jira-issue-sync-admins:
     description: ""
     maintainers:
-    - detiber
     - justaugustus
     members: []
     privacy: closed
@@ -11,7 +10,6 @@ teams:
   gh-jira-issue-sync-maintainers:
     description: ""
     maintainers:
-    - detiber
     - justaugustus
     members: []
     privacy: closed

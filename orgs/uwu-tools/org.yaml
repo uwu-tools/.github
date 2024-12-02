@@ -1,7 +1,6 @@
 admins:
 - auggie-bot
 - cpanato
-- detiber
 - justaugustus
 - sethmccombs
 billing_email: foo@auggie.dev
@@ -24,6 +23,5 @@ teams:
     maintainers:
     - justaugustus
     - cpanato
-    - detiber
     members: []
     privacy: closed
