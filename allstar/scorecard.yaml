@@ -22,3 +22,5 @@ checks:
 - "Token-Permissions"
 - "Vulnerabilities"
 - "Webhooks"
+upload:
+  sarif: true
