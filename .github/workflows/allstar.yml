@@ -78,8 +78,8 @@ jobs:
         id: scorecard-monitor
         with:
           results-path: ${{ env.ARTIFACT_DIR }}/results.json
-          database: reporting/database.json
-          report: reporting/scorecard-report.md
+          database: reports/database.json
+          report: reports/scorecard-report.md
           auto-commit: false
           auto-push: false
           github-token: ${{ secrets.GITHUB_TOKEN }}
