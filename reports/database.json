@@ -1,0 +1,94 @@
+{
+  "github.com": {
+    "uwu-tools": {
+      "ggreconcile": {
+        "previous": [],
+        "current": {
+          "score": 3.6,
+          "date": "2026-03-30T02:43:01Z",
+          "commit": "102415b18f4dad777df4dbf32665610114e11c3a"
+        }
+      },
+      "peribolos": {
+        "previous": [],
+        "current": {
+          "score": 8.3,
+          "date": "2026-03-30T02:43:58Z",
+          "commit": "bf80d9088276c8a6408eb3621b93b85a3bdd6ad3"
+        }
+      },
+      "go-ghcrawl": {
+        "previous": [],
+        "current": {
+          "score": 2.4,
+          "date": "2026-03-30T02:44:37Z",
+          "commit": "ad9271d2a02511208fd4827123c261ca0cc97e31"
+        }
+      },
+      ".github": {
+        "previous": [],
+        "current": {
+          "score": 6.4,
+          "date": "2026-03-30T02:45:33Z",
+          "commit": "8954ece288c6d6fb2a97f5fcc8ce1f876e31bf41"
+        }
+      },
+      "k-release": {
+        "previous": [],
+        "current": {
+          "score": 5.3,
+          "date": "2026-03-30T02:46:35Z",
+          "commit": "c42c0fdb915132c5580d70080da00936f46de07d"
+        }
+      },
+      "issue-sync": {
+        "previous": [],
+        "current": {
+          "score": 5.4,
+          "date": "2026-03-30T02:47:42Z",
+          "commit": "951b1f8b0fb738f27d40eba0f9f36e596c8a2687"
+        }
+      },
+      "gh-jira-issue-sync": {
+        "previous": [],
+        "current": {
+          "score": 6.6,
+          "date": "2026-03-30T02:48:45Z",
+          "commit": "1cc9b247bebd8b65348736f8edc21e1c78e04f02"
+        }
+      },
+      "magex": {
+        "previous": [],
+        "current": {
+          "score": 6.9,
+          "date": "2026-03-30T02:49:43Z",
+          "commit": "39e5eb0c8e219991108cf9da0280b423173153d4"
+        }
+      },
+      "go-jira": {
+        "previous": [],
+        "current": {
+          "score": 4.5,
+          "date": "2026-03-30T02:50:33Z",
+          "commit": "2e11dffbdb9a4710fdc9233e8efe0a124e204e24"
+        }
+      },
+      "gimme": {
+        "previous": [],
+        "current": {
+          "score": 3.4,
+          "date": "2026-03-30T02:51:17Z",
+          "commit": "3f3a9dc6a16f59af098c2965ecc60c78ce9c7e9f"
+        }
+      },
+      "blahg-bsky": {
+        "previous": [],
+        "current": {
+          "score": 3.5,
+          "date": "2026-03-30T02:51:54Z",
+          "commit": "d768d18c46600dc3af580624bd115ac24bd35888"
+        }
+      }
+    }
+  }
+}
