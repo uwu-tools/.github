@@ -15,6 +15,7 @@ members:
 - lgecse
 - matewolf
 - rappizs
+- mlieberman85
 - schristoff
 members_can_create_repositories: false
 name: ""
@@ -26,3 +27,4 @@ teams:
     - cpanato
     members: []
     privacy: closed
+`
