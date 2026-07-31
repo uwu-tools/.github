@@ -12,9 +12,6 @@ has_organization_projects: true
 has_repository_projects: true
 location: ""
 members:
-- lgecse
-- matewolf
-- rappizs
 - mlieberman85
 - schristoff
 members_can_create_repositories: false
