@@ -1,0 +1,18 @@
+teams:
+  scorecard-mcp-admins:
+    description: ""
+    maintainers:
+    - justaugustus
+    members: []
+    privacy: closed
+    repos:
+      scorecard-mcp: admin
+  scorecard-mcp-maintainers:
+    description: ""
+    maintainers:
+    - justaugustus
+    - mlieberman85
+    members: []
+    privacy: closed
+    repos:
+      scorecard-mcp: maintain
