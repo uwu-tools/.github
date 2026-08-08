@@ -1,0 +1,12 @@
+---
+# yamllint configuration for uwu-tools/.github
+#
+# Extends the built-in "relaxed" preset, which tolerates the peribolos dump
+# format used by the org/team configs (zero-indent block sequences, no explicit
+# document-start marker). line-length is disabled so machine-generated configs
+# don't produce noise. Genuine syntax errors -- e.g. the stray backtick that
+# broke the Production sync -- are reported at "error" level and fail the run.
+extends: relaxed
+
+rules:
+  line-length: disable
