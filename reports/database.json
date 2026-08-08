@@ -10,10 +10,16 @@
         }
       },
       "peribolos": {
-        "previous": [],
+        "previous": [
+          {
+            "score": 6.8,
+            "date": "2026-06-01T04:17:35Z",
+            "commit": "a855f68486623b17bb6dbb565491046d68679c19"
+          }
+        ],
         "current": {
-          "score": 6.8,
-          "date": "2026-06-01T04:17:35Z",
+          "score": 6.3,
+          "date": "2026-08-08T01:44:54Z",
           "commit": "a855f68486623b17bb6dbb565491046d68679c19"
         }
       },
@@ -26,11 +32,17 @@
         }
       },
       ".github": {
-        "previous": [],
+        "previous": [
+          {
+            "score": 6.5,
+            "date": "2026-06-01T04:18:05Z",
+            "commit": "c89db75eaa06b9c55962e2d6cb2bd017ed146580"
+          }
+        ],
         "current": {
-          "score": 6.5,
-          "date": "2026-06-01T04:18:05Z",
-          "commit": "c89db75eaa06b9c55962e2d6cb2bd017ed146580"
+          "score": 6.3,
+          "date": "2026-08-08T01:45:31Z",
+          "commit": "3c80aea3a3ffb4fb844373e4f0432bae2962a55c"
         }
       },
       "k-release": {
@@ -58,10 +70,16 @@
         }
       },
       "magex": {
-        "previous": [],
+        "previous": [
+          {
+            "score": 6.8,
+            "date": "2026-06-01T04:19:11Z",
+            "commit": "39e5eb0c8e219991108cf9da0280b423173153d4"
+          }
+        ],
         "current": {
-          "score": 6.8,
-          "date": "2026-06-01T04:19:11Z",
+          "score": 6.6,
+          "date": "2026-08-08T01:46:48Z",
           "commit": "39e5eb0c8e219991108cf9da0280b423173153d4"
         }
       },
@@ -87,6 +105,22 @@
           "score": 3.5,
           "date": "2026-06-01T04:20:02Z",
           "commit": "d768d18c46600dc3af580624bd115ac24bd35888"
+        }
+      },
+      "scorecard-mcp": {
+        "previous": [],
+        "current": {
+          "score": 6.6,
+          "date": "2026-08-08T01:48:07Z",
+          "commit": "408ba0f91f3b5b9d3be66d9ad01054f0ef4f0bc9"
+        }
+      },
+      "scorecard-infra": {
+        "previous": [],
+        "current": {
+          "score": 5.2,
+          "date": "2026-08-08T01:48:20Z",
+          "commit": "fc23b427ed18e598e10c8ed848b2ac933974b791"
         }
       }
     }
