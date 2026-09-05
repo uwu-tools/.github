@@ -10,10 +10,16 @@
         }
       },
       "peribolos": {
-        "previous": [],
+        "previous": [
+          {
+            "score": 6.8,
+            "date": "2026-06-01T04:17:35Z",
+            "commit": "a855f68486623b17bb6dbb565491046d68679c19"
+          }
+        ],
         "current": {
-          "score": 6.8,
-          "date": "2026-06-01T04:17:35Z",
+          "score": 6.3,
+          "date": "2026-09-05T03:27:13Z",
           "commit": "a855f68486623b17bb6dbb565491046d68679c19"
         }
       },
@@ -26,11 +32,17 @@
         }
       },
       ".github": {
-        "previous": [],
+        "previous": [
+          {
+            "score": 6.5,
+            "date": "2026-06-01T04:18:05Z",
+            "commit": "c89db75eaa06b9c55962e2d6cb2bd017ed146580"
+          }
+        ],
         "current": {
-          "score": 6.5,
-          "date": "2026-06-01T04:18:05Z",
-          "commit": "c89db75eaa06b9c55962e2d6cb2bd017ed146580"
+          "score": 6.3,
+          "date": "2026-09-05T03:27:34Z",
+          "commit": "b2d2722ca293a19405fb706eb4679c6a5844e902"
         }
       },
       "k-release": {
@@ -58,10 +70,16 @@
         }
       },
       "magex": {
-        "previous": [],
+        "previous": [
+          {
+            "score": 6.8,
+            "date": "2026-06-01T04:19:11Z",
+            "commit": "39e5eb0c8e219991108cf9da0280b423173153d4"
+          }
+        ],
         "current": {
-          "score": 6.8,
-          "date": "2026-06-01T04:19:11Z",
+          "score": 6.6,
+          "date": "2026-09-05T03:28:22Z",
           "commit": "39e5eb0c8e219991108cf9da0280b423173153d4"
         }
       },
@@ -87,6 +105,22 @@
           "score": 3.5,
           "date": "2026-06-01T04:20:02Z",
           "commit": "d768d18c46600dc3af580624bd115ac24bd35888"
+        }
+      },
+      "scorecard-mcp": {
+        "previous": [],
+        "current": {
+          "score": 6.6,
+          "date": "2026-09-05T03:29:10Z",
+          "commit": "f95e5d8e4180d84106d546a104af672d15309c2e"
+        }
+      },
+      "loose-threads": {
+        "previous": [],
+        "current": {
+          "score": 4.9,
+          "date": "2026-09-05T03:29:19Z",
+          "commit": "8c82b1dd8e4526407a51ebc92f94fc01c948cc8f"
         }
       }
     }
