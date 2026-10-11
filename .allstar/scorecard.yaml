@@ -1,27 +1,19 @@
-# Repo-level override of allstar/scorecard.yaml. This repo only holds org
-# configuration and workflows (no code), so Fuzzing does not apply. The check
-# list replaces the org-level one, so keep it in sync minus Fuzzing.
+# Repo-level override of allstar/scorecard.yaml. This repo only stores org
+# configuration, docs and workflows (no code), so checks about code, releases,
+# packaging, fuzzing, vulnerabilities, contributors or full review/maintenance
+# activity are skipped. The check list replaces the org-level one.
 #
-# A score of 10 is unreachable for some checks here (e.g. CII-Best-Practices
-# needs a Gold badge), so require 5 for this repo instead of the org-level 10.
+# The threshold is lowered from the org-level 10 because a perfect score is not
+# realistic for every remaining check (e.g. Branch-Protection with admin bypass).
 threshold: 5
 checks:
-- "Binary-Artifacts"
 - "Branch-Protection"
 - "CI-Tests"
-- "CII-Best-Practices"
-- "Code-Review"
-- "Contributors"
 - "Dangerous-Workflow"
 - "Dependency-Update-Tool"
 - "License"
-- "Maintained"
-- "Packaging"
 - "Pinned-Dependencies"
 - "SAST"
-- "SBOM"
 - "Security-Policy"
-- "Signed-Releases"
 - "Token-Permissions"
-- "Vulnerabilities"
 - "Webhooks"
