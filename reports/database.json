@@ -47,12 +47,17 @@
             "score": 7.2,
             "date": "2026-10-11T11:48:14Z",
             "commit": "d7f15fc0dc92c2da5c94167a6a5fab5dd81034ce"
+          },
+          {
+            "score": 8.2,
+            "date": "2026-10-11T15:13:12Z",
+            "commit": "44542fec297312afe021f6871a3b349133a4004d"
           }
         ],
         "current": {
-          "score": 8.2,
-          "date": "2026-10-11T15:13:12Z",
-          "commit": "44542fec297312afe021f6871a3b349133a4004d"
+          "score": 9,
+          "date": "2026-10-11T15:22:07Z",
+          "commit": "f7b298e36efe371db70aef92e458dffc1e466a4c"
         }
       },
       "k-release": {
