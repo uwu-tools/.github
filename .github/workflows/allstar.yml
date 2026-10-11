@@ -74,7 +74,7 @@ jobs:
           name: allstar-scan
           path: ${{ env.ARTIFACT_DIR }}
       - name: OpenSSF Scorecard Monitor
-        uses: ossf/scorecard-monitor@local-results # TODO: pin to release once merged
+        uses: ossf/scorecard-monitor@c40974c13baec57e77fcac19f129ce9e3ff134fe # main (includes results-path, ossf/scorecard-monitor#90)
         id: scorecard-monitor
         with:
           results-path: ${{ env.ARTIFACT_DIR }}/results.json
