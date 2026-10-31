@@ -15,12 +15,17 @@
             "score": 6.8,
             "date": "2026-06-01T04:17:35Z",
             "commit": "a855f68486623b17bb6dbb565491046d68679c19"
+          },
+          {
+            "score": 6.3,
+            "date": "2026-10-11T04:37:08Z",
+            "commit": "a855f68486623b17bb6dbb565491046d68679c19"
           }
         ],
         "current": {
-          "score": 6.3,
-          "date": "2026-10-11T04:37:08Z",
-          "commit": "a855f68486623b17bb6dbb565491046d68679c19"
+          "score": 6.9,
+          "date": "2026-10-31T04:34:13Z",
+          "commit": "1c0f38821eeeb685c2b16b1a84c89a160d5b0f6b"
         }
       },
       "go-ghcrawl": {
@@ -123,10 +128,16 @@
         }
       },
       "scorecard-mcp": {
-        "previous": [],
+        "previous": [
+          {
+            "score": 6.6,
+            "date": "2026-10-11T04:39:47Z",
+            "commit": "f95e5d8e4180d84106d546a104af672d15309c2e"
+          }
+        ],
         "current": {
-          "score": 6.6,
-          "date": "2026-10-11T04:39:47Z",
+          "score": 7.3,
+          "date": "2026-10-31T04:37:18Z",
           "commit": "f95e5d8e4180d84106d546a104af672d15309c2e"
         }
       },
